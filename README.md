@@ -780,6 +780,7 @@ There are many techniques to scale a relational database: **master-slave replica
 #### Master-slave replication
 
 The master serves reads and writes, replicating writes to one or more slaves, which serve only reads.  Slaves can also replicate to additional slaves in a tree-like fashion.  If the master goes offline, the system can continue to operate in read-only mode until a slave is promoted to a master or a new master is provisioned.
+https://www.youtube.com/watch?v=cBt1LVf00nk
 
 <p align="center">
   <img src="http://i.imgur.com/C9ioGtn.png">
